@@ -23,7 +23,7 @@ public class Test10 {
 		
 		frame.add(leftPanel,BorderLayout.WEST);
 		frame.add(centerPanel);
-		
+		System.out.println("123");
 		
 		leftPanel.setLayout(new GridLayout(4,1)); 
 		JButton btnPrev=new JButton("Ç°Ò»¸ö");
