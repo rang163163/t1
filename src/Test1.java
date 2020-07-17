@@ -48,6 +48,7 @@ public class Test1 {
 		textArea1.append("tttt"); 
 		conn.add(textArea1);
 		JButton button = new JButton("°´Å¥");
+		JButton button2= new JButton("°´Å¥");
 		JButton image = new JButton(new ImageIcon("./src/open.gif"));
 		conn.add(button);
 		//conn.add(image);
