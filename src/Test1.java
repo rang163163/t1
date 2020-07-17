@@ -24,6 +24,9 @@ public class Test1 {
 
 	public static void main(String[] args) {
 		System.out.println("222223");
+		System.out.println("2asdasd22223");
+		
+		
 		JFrame frame =new JFrame();
 		frame.setLocation(200,200);
 		frame.setSize(1000, 800);
