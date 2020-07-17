@@ -35,6 +35,7 @@ public class Test12 {
 		jimage.setIcon(image);
 		frame.add(leftPanel, BorderLayout.WEST);
 		jimage.setBounds(10, 10, 200, 250);
+		jimage.setBounds(10, 10, 200, 250);
 
 		leftPanel.add(jimage);
 		frame.add(centerPanel);
