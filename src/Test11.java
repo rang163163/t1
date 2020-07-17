@@ -8,17 +8,18 @@ public class Test11 {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
 		frame.setSize(500, 500);
-		frame.setLayout(null);  //È¡ÏûÄ¬ÈÏ²¼¾Ö
-		JLabel jl=new JLabel("ÓÃ»§Ãû");
+		frame.setLayout(null);  //å–æ¶ˆé»˜è®¤å¸ƒå±€
+		JLabel jl=new JLabel("ç”¨æˆ·å");
 		JTextField jt=new JTextField("123");
 		jt.setBounds(200, 60, 100, 20);
 		jl.setBounds(150, 60, 100, 20);
-		JButton btn = new JButton("°´Å¥");
-		btn.setBounds(150, 30, 100, 20); //£¨x,y,width,height£©
+		JButton btn = new JButton("æŒ‰é’®");
+		btn.setBounds(150, 30, 100, 20); //ï¼ˆx,y,width,heightï¼‰
 		frame.add(btn);
 		frame.add(jt);
 		frame.add(jl);
 		frame.setVisible(true);
+		System.out.println("123");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}	
 }
