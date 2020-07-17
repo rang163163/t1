@@ -38,16 +38,16 @@ public class Test12 {
 
 		leftPanel.add(jimage);
 		frame.add(centerPanel);
-		JLabel j1 = new JLabel("Ñ§ºÅ£º");
-		JLabel j2 = new JLabel("ĞÕÃû£º");
-		JLabel jj1 = new JLabel("ĞÔ±ğ£º");
-		JLabel j3 = new JLabel("ÄêÁä£º");
-		JLabel j4 = new JLabel("ÊÖ»ú£º");
-		JLabel j5 = new JLabel("×¡Ö·£º");
+		JLabel j1 = new JLabel("å­¦å·ï¼š");
+		JLabel j2 = new JLabel("å§“åï¼š");
+		JLabel jj1 = new JLabel("æ€§åˆ«ï¼š");
+		JLabel j3 = new JLabel("å¹´é¾„ï¼š");
+		JLabel j4 = new JLabel("æ‰‹æœºï¼š");
+		JLabel j5 = new JLabel("ä½å€ï¼š");
 
-		JRadioButton radio1 = new JRadioButton("ÄĞ", true);
+		JRadioButton radio1 = new JRadioButton("ç”·", true);
 
-		JRadioButton radio2 = new JRadioButton("Å®", false);
+		JRadioButton radio2 = new JRadioButton("å¥³", false);
 		ButtonGroup bg = new ButtonGroup();
 		bg.add(radio1);
 		bg.add(radio2);
@@ -56,10 +56,10 @@ public class Test12 {
 		JTextField jt3 = new JTextField(10);
 		JTextField jt4 = new JTextField(10);
 		JTextField jt5 = new JTextField(10);
-		JButton jb1 = new JButton("Ìí¼ÓÍ¼Æ¬");
-		JButton jb2 = new JButton("Ôö¼Ó¼ÇÂ¼");
-		JButton jb3 = new JButton("ĞŞ¸Ä¼ÇÂ¼");
-		JButton jb4 = new JButton("É¾³ı¼ÇÂ¼");
+		JButton jb1 = new JButton("æ·»åŠ å›¾ç‰‡");
+		JButton jb2 = new JButton("å¢åŠ è®°å½•");
+		JButton jb3 = new JButton("ä¿®æ”¹è®°å½•");
+		JButton jb4 = new JButton("åˆ é™¤è®°å½•");
 		j1.setBounds(100, 50, 50, 50);
 		j2.setBounds(100, 80, 50, 50);
 		j3.setBounds(100, 145, 50, 50);
@@ -97,18 +97,19 @@ public class Test12 {
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
 
-		JMenu menu1 = new JMenu("ÎÄ¼ş");
-		JMenu menu2 = new JMenu("±à¼­");
-		JMenu menu3 = new JMenu("ÊÓÍ¼");
-		JMenu menu4 = new JMenu("°ïÖú");
+		JMenu menu1 = new JMenu("æ–‡ä»¶");
+		JMenu menu1 = new JMenu("æ–‡ä»¶");
+		JMenu menu2 = new JMenu("ç¼–è¾‘");
+		JMenu menu3 = new JMenu("è§†å›¾");
+		JMenu menu4 = new JMenu("å¸®åŠ©");
 
 		menuBar.add(menu1);
 		menuBar.add(menu2);
 		menuBar.add(menu3);
 		menuBar.add(menu4);
 
-		menu1.add(new JMenuItem("´ò¿ª"));
-		menu1.add(new JMenuItem("±£´æ"));
+		menu1.add(new JMenuItem("æ‰“å¼€"));
+		menu1.add(new JMenuItem("ä¿å­˜"));
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
