@@ -37,7 +37,7 @@ public class Test10 {
 		leftPanel.add(btnNext);
 		leftPanel.add(btnTwo);	
 		leftPanel.add(btnThree);		
-		
+		System.out.println("1232222222222");
 		
 		final CardLayout cl=new CardLayout(); //卡片布局
 		centerPanel.setLayout(cl);   
