@@ -28,6 +28,7 @@ public class Test1 {
 		
 		
 		System.out.println("123");
+		System.out.println("123");
 		JFrame frame =new JFrame();
 		frame.setLocation(200,200);
 		frame.setSize(1000, 800);
