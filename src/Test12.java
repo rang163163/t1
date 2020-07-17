@@ -99,7 +99,7 @@ public class Test12 {
 		frame.setJMenuBar(menuBar);
 
 		JMenu menu1 = new JMenu("文件");
-		JMenu menu1 = new JMenu("文件");
+		
 		JMenu menu2 = new JMenu("编辑");
 		JMenu menu3 = new JMenu("视图");
 		JMenu menu4 = new JMenu("帮助");
