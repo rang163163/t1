@@ -24,6 +24,7 @@ public class Test10 {
 		frame.add(leftPanel,BorderLayout.WEST);
 		frame.add(centerPanel);
 		System.out.println("123");
+		System.out.println("1232222222222");
 		System.out.println("1234");
 		leftPanel.setLayout(new GridLayout(4,1)); 
 		JButton btnPrev=new JButton("Ç°Ò»¸ö");
