@@ -26,11 +26,12 @@ public class Test10 {
 		System.out.println("123");
 		System.out.println("1232222222222");
 		System.out.println("1234");
+		System.out.println("12311111");
 		leftPanel.setLayout(new GridLayout(4,1)); 
-		JButton btnPrev=new JButton("Ç°Ò»¸ö");
-		JButton btnNext=new JButton("ºóÒ»¸ö");
-		JButton btnTwo=new JButton("µÚ¶ş¸ö");
-		JButton btnThree=new JButton("µÚÈı¸ö");
+		JButton btnPrev=new JButton("å‰ä¸€ä¸ª");
+		JButton btnNext=new JButton("åä¸€ä¸ª");
+		JButton btnTwo=new JButton("ç¬¬äºŒä¸ª");
+		JButton btnThree=new JButton("ç¬¬ä¸‰ä¸ª");
 		
 		leftPanel.add(btnPrev);
 		leftPanel.add(btnNext);
@@ -38,7 +39,7 @@ public class Test10 {
 		leftPanel.add(btnThree);		
 		
 		
-		final CardLayout cl=new CardLayout(); //¿¨Æ¬²¼¾Ö
+		final CardLayout cl=new CardLayout(); //å¡ç‰‡å¸ƒå±€
 		centerPanel.setLayout(cl);   
 		ImageIcon image=new ImageIcon("./src/open.gif");
 		centerPanel.add(new JLabel(image),"1");
@@ -57,17 +58,17 @@ public class Test10 {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(e.getActionCommand().equals("Ç°Ò»¸ö")){
+				if(e.getActionCommand().equals("å‰ä¸€ä¸ª")){
 					cl.previous(centerPanel);
 				}
-				else if(e.getActionCommand().equals("ºóÒ»¸ö")){
+				else if(e.getActionCommand().equals("åä¸€ä¸ª")){
 					cl.next(centerPanel);
 				}
-				else if(e.getActionCommand().equals("µÚ¶ş¸ö")){
-					cl.show(centerPanel,"2"); //Ö¸¶¨ÏÔÊ¾ÄÄÒ»¸ö
+				else if(e.getActionCommand().equals("ç¬¬äºŒä¸ª")){
+					cl.show(centerPanel,"2"); //æŒ‡å®šæ˜¾ç¤ºå“ªä¸€ä¸ª
 				}
-				else if(e.getActionCommand().equals("µÚÈı¸ö")){
-					cl.show(centerPanel,"3"); //Ö¸¶¨ÏÔÊ¾ÄÄÒ»¸ö
+				else if(e.getActionCommand().equals("ç¬¬ä¸‰ä¸ª")){
+					cl.show(centerPanel,"3"); //æŒ‡å®šæ˜¾ç¤ºå“ªä¸€ä¸ª
 				}
 			}
 		}
