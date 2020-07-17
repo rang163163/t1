@@ -23,6 +23,7 @@ import javax.swing.table.DefaultTableModel;
 public class Test1 {
 
 	public static void main(String[] args) {
+		System.out.println("123");
 		JFrame frame =new JFrame();
 		frame.setLocation(200,200);
 		frame.setSize(1000, 800);
@@ -32,7 +33,7 @@ public class Test1 {
 		//conn.setBackground(Color.blue);
 		
 		
-		JLabel lab1=new JLabel("ÓÃ»§ÃÜÂë");
+		JLabel lab1=new JLabel("ç”¨æˆ·å¯†ç ");
 		conn.add(lab1);
 		
 		JLabel jab2=new JLabel(new ImageIcon("./src/open.gif"));
@@ -47,38 +48,38 @@ public class Test1 {
 		textArea1.setText("ssss");
 		textArea1.append("tttt"); 
 		conn.add(textArea1);
-		JButton button = new JButton("°´Å¥");
-		JButton button2= new JButton("°´Å¥");
+		JButton button = new JButton("æŒ‰é’®");
+		JButton button2= new JButton("æŒ‰é’®");
 		System.out.println("123");
 		JButton image = new JButton(new ImageIcon("./src/open.gif"));
 		conn.add(button);
 		//conn.add(image);
-		JCheckBox checkbox1 = new JCheckBox("µçÄÔ",true);
-		JCheckBox checkbox2 = new JCheckBox("ÊÖ»ú");
+		JCheckBox checkbox1 = new JCheckBox("ç”µè„‘",true);
+		JCheckBox checkbox2 = new JCheckBox("æ‰‹æœº");
 		System.out.println(checkbox1.getText());
 		conn.add(checkbox1);
 		conn.add(checkbox2);
-		JRadioButton radio1 = new JRadioButton("ÄĞ",true);
+		JRadioButton radio1 = new JRadioButton("ç”·",true);
 		conn.add(radio1);
-		JRadioButton radio2 = new JRadioButton("Å®",false);
+		JRadioButton radio2 = new JRadioButton("å¥³",false);
 		conn.add(radio2);
-		String [] items ={"±±¾©","ÉÏº£","¹ã¶«"};
+		String [] items ={"åŒ—äº¬","ä¸Šæµ·","å¹¿ä¸œ"};
 		JComboBox<String> sel = new JComboBox<String>(items);
 		sel.setPreferredSize(new Dimension(200, 20));
-		sel.addItem("Ö£Öİ");
+		sel.addItem("éƒ‘å·");
 		sel.setSelectedIndex(3);  
 		System.out.println(sel.getSelectedItem());
 		conn.add(sel);
-		/*String [] colName1= {"ĞÕÃû","ĞÔ±ğ","ÈëÑ§Äê·İ","±ÏÒµÄê·İ"}; 
-		String [][]  rowData = {{"Ô¬ÌíÊ¥","ÄĞ","2018","2022"},{"Ô¬ÌíÊ¥","ÄĞ","2018","2022"},{"Ô¬ÌíÊ¥","ÄĞ","2018","2022"}};  
+		/*String [] colName1= {"å§“å","æ€§åˆ«","å…¥å­¦å¹´ä»½","æ¯•ä¸šå¹´ä»½"}; 
+		String [][]  rowData = {{"è¢æ·»åœ£","ç”·","2018","2022"},{"è¢æ·»åœ£","ç”·","2018","2022"},{"è¢æ·»åœ£","ç”·","2018","2022"}};  
 		JTable table = new JTable(rowData,colName1);
 		conn.add(table);*/
-		String [] colName1= {"ĞÕÃû","ĞÔ±ğ","ÈëÑ§Äê·İ","±ÏÒµÄê·İ"}; 
+		String [] colName1= {"å§“å","æ€§åˆ«","å…¥å­¦å¹´ä»½","æ¯•ä¸šå¹´ä»½"}; 
 		DefaultTableModel dt = new DefaultTableModel(colName1,0);
-		dt.addRow(new String[]{"Ô¬ÌíÊ¥","ÄĞ","2018","2022"});
-		dt.addRow(new String[]{"Ô¬ÌíÊ¥","ÄĞ","2018","2022"});
-		dt.addRow(new String[]{"Ô¬ÌíÊ¥","ÄĞ","2018","2022"});
-		dt.addRow(new String[]{"Ô¬ÌíÊ¥","ÄĞ","2018","2022"});
+		dt.addRow(new String[]{"è¢æ·»åœ£","ç”·","2018","2022"});
+		dt.addRow(new String[]{"è¢æ·»åœ£","ç”·","2018","2022"});
+		dt.addRow(new String[]{"è¢æ·»åœ£","ç”·","2018","2022"});
+		dt.addRow(new String[]{"è¢æ·»åœ£","ç”·","2018","2022"});
 		JTable table = new JTable(dt);
 		table.setRowHeight(50);
 		JScrollPane jp = new JScrollPane(table);   
@@ -90,14 +91,14 @@ public class Test1 {
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
 		
-		JMenu menu1 = new JMenu("ÎÄ¼ş"); 
-		JMenu menu2 = new JMenu("ÍË³ö");
+		JMenu menu1 = new JMenu("æ–‡ä»¶"); 
+		JMenu menu2 = new JMenu("é€€å‡º");
 		
 		menuBar.add(menu1);
 		menuBar.add(menu2);
 		
-		menu1.add(new JMenuItem("´ò¿ª")); 
-		menu1.add(new JMenuItem("±£´æ")); 
+		menu1.add(new JMenuItem("æ‰“å¼€")); 
+		menu1.add(new JMenuItem("ä¿å­˜")); 
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
